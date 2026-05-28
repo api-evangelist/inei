@@ -1,0 +1,32 @@
+aid: inei
+name: INEI
+description: "Peruvian Statistical Government Open Data"
+url: http://iinei.inei.gob.pe/microdatos/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Government"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Government
+  - Public APIs
+apis:
+  - name: INEI
+    description: "Peruvian Statistical Government Open Data"
+    humanURL: http://iinei.inei.gob.pe/microdatos/
+    baseURL: http://iinei.inei.gob.pe/microdatos/
+    tags:
+      - Government
+    properties:
+      - type: Documentation
+        url: http://iinei.inei.gob.pe/microdatos/
+common:
+  - type: Website
+    url: http://iinei.inei.gob.pe/microdatos/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
