@@ -1,0 +1,12 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: iinei.inei.gob.pe
+  https: false
+domains:
+- domain: gob.pe
+  dnssec: true
+  caa: []
+  spf: false
+  dmarc: false
