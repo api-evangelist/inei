@@ -39,7 +39,6 @@ apis:
   - name: INEI
     description: "Peruvian Statistical Government Open Data"
     humanURL: http://iinei.inei.gob.pe/microdatos/
-    baseURL: http://iinei.inei.gob.pe/microdatos/
     tags:
       - Government
     properties:
